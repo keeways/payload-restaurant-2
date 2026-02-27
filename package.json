@@ -18,6 +18,9 @@
     "test:int": "cross-env NODE_OPTIONS=--no-deprecation vitest run --config ./vitest.config.mts"
   },
   "dependencies": {
+    "@mui/material": "^7.3.8",
+    "@mui/styled-engine-sc": "^7.3.8",
+    "@payloadcms/db-mongodb": "3.77.0",
     "@payloadcms/next": "3.77.0",
     "@payloadcms/richtext-lexical": "3.77.0",
     "@payloadcms/ui": "3.77.0",
@@ -27,9 +30,15 @@
     "next": "15.4.11",
     "payload": "3.77.0",
     "react": "19.2.1",
+    "react-countup": "^6.5.3",
+    "react-datepicker": "^9.1.0",
     "react-dom": "19.2.1",
+    "react-modal-video": "^2.0.2",
+    "react-paginate": "^8.3.0",
     "sharp": "0.34.2",
-    "@payloadcms/db-mongodb": "3.77.0"
+    "styled-components": "^6.3.11",
+    "swiper": "8.4.5",
+    "yet-another-react-lightbox": "^3.29.1"
   },
   "devDependencies": {
     "@playwright/test": "1.58.2",
